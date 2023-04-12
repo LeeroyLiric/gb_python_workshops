@@ -9,3 +9,8 @@
 #   6 -> 1  4  1
 #   24 -> 4  16  4
 #   60 -> 10  40  10
+
+s = int(input())
+katya = s * 2 // 3
+petya_sereja = (s - katya) // 2
+print(f"Петя: {petya_sereja} Катя: {katya} Серёжа: {petya_sereja}")
